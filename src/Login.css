@@ -1,0 +1,98 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.login_logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.login_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login_container h1{
+    font-weight: bold;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    margin-bottom: 20px;
+}
+
+.login_container form h5{
+   font-family: "Amazon Ember",Arial,sans-serif;
+   margin-bottom: 5px;
+}
+
+.login_container form input{
+   margin-bottom: 10px;
+   height: 30px;
+   background-color: white;
+   width: 98%;
+   padding: 7px;
+}
+
+.login_container input:focus {
+    outline: none;
+    border-color: #E77600;
+    box-shadow: 0 0 5px #E77600;
+}
+
+.login_container p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login_signInButton{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+}
+
+.login_signInButton:hover{
+    background-color: #EEBC3C;
+}
+
+.login_container h6{
+    width: 100%;
+    padding: 0 8px 0 7px;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1px solid #A1A1A1;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: #A1A1A1;
+}
+
+
+.login_container h6 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.login_registerButton{
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+  cursor: pointer;
+}
